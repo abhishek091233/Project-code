@@ -1,0 +1,39 @@
+body {
+  background-color: #23dcb428;
+}
+
+@keyframes move {
+  0% {
+    margin-left: 0;
+  }
+
+  50% {
+    margin-left: 260px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+.wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  margin: auto;
+  height: 40px;
+  background-color: #23dcb492;
+  border-radius: 40px;
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  background-color: #23DCB5;
+  animation: move 1.5s infinite;
+}
